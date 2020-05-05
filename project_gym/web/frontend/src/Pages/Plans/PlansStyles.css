@@ -1,0 +1,50 @@
+.body-plans {
+    width: 100%;
+    height: 100vh;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-plans {
+
+    width: 1250px;
+    height: 600px;
+    display: grid;
+    justify-content: center;
+}
+
+
+.plan-1 {
+    
+    margin-top: 50px;
+    width: 1000px;
+    height: 100px;
+    border-radius: 8px;
+    border-top: #29964f solid 3px;
+    border-bottom: #29964f solid 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+    transition-duration: 2s;
+}
+
+.plan {
+
+    margin-left: 15px;
+}
+
+.value {
+    margin-right: 15px;
+}
+
+.plan-1:hover{
+    background-image: linear-gradient(#29964f,#29964f);
+    border-top: #29964f solid 1px;
+    border-bottom: #29964f solid 1px;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+}
